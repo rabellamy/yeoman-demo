@@ -18,7 +18,7 @@ $headingFont: 'Open Sans', sans-serif;
 $headingColor: #333;
 $headingLetterSpacing: -0.08em;
 $headingTextShadow: none;
-$backgroundColor: #285E88;
+$backgroundColor: lighten(#285E88, 50%);
 $linkColor: #3b759e;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: #134674;
@@ -30,7 +30,7 @@ $selectionBackgroundColor: #134674;
 
 // Background generator
 @mixin bodyBackground() {
-  @include radial-gradient(lighten($backgroundColor, 30%), #f7fbfc );
+
 }
 
 
@@ -39,3 +39,6 @@ $selectionBackgroundColor: #134674;
 @import "../template/theme";
 // ---------------------------------------------
 
+#Design-Dev-Cycle {
+  background-color: white;
+}
