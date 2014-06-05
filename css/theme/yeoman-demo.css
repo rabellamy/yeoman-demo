@@ -3,18 +3,14 @@
 .reveal a:not(.image) {
   line-height: 1.3em; }
 
+.grunt img {
+  width: 80%; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #73abd6;
-  background: -moz-radial-gradient(center, circle cover, #f7fbfc 0%, #73abd6 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f7fbfc), color-stop(100%, #73abd6));
-  background: -webkit-radial-gradient(center, circle cover, #f7fbfc 0%, #73abd6 100%);
-  background: -o-radial-gradient(center, circle cover, #f7fbfc 0%, #73abd6 100%);
-  background: -ms-radial-gradient(center, circle cover, #f7fbfc 0%, #73abd6 100%);
-  background: radial-gradient(center, circle cover, #f7fbfc 0%, #73abd6 100%);
-  background-color: #285e88; }
+  background-color: #c2daed; }
 
 body .reveal footer {
   bottom: 0;
@@ -150,3 +146,6 @@ body .reveal footer .emphasis{
  *********************************************/
 .reveal .slide-number {
   color: #3b759e; }
+
+#Design-Dev-Cycle {
+  background-color: white; }
