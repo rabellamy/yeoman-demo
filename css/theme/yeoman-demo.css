@@ -16,6 +16,20 @@ body {
   background: radial-gradient(center, circle cover, #f7fbfc 0%, #73abd6 100%);
   background-color: #285e88; }
 
+body .reveal footer {
+  bottom: 0;
+  font-size: 14px;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  padding: 1em;
+}
+
+body .reveal footer .emphasis{
+  font-style: italic;
+}
+
 .reveal {
   font-family: "Open Sans", sans-serif;
   font-size: 36px;
