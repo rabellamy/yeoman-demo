@@ -21,9 +21,12 @@ body .reveal footer {
   width: 100%;
   padding: 1em;
 }
-
-body .reveal footer .emphasis{
+body .reveal .emphasis{
   font-style: italic;
+}
+
+body .reveal section .emphasis{
+  font-size: 70%;
 }
 
 .reveal {
