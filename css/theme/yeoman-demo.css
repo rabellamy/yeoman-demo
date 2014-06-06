@@ -12,6 +12,23 @@
 body {
   background-color: #c2daed; }
 
+body .reveal footer {
+  bottom: 0;
+  font-size: 14px;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  padding: 1em;
+}
+body .reveal .emphasis{
+  font-style: italic;
+}
+
+body .reveal section .emphasis{
+  font-size: 70%;
+}
+
 .reveal {
   font-family: "Open Sans", sans-serif;
   font-size: 36px;
