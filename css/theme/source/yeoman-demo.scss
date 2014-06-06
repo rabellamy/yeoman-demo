@@ -10,16 +10,17 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
 
+$myFontColor: darken(white, 5%);
 
 // Override theme settings (see ../template/settings.scss)
 $mainFont: 'Open Sans', sans-serif;
-$mainColor: #333;
+$mainColor: $myFontColor;
 $headingFont: 'Open Sans', sans-serif;
-$headingColor: #333;
+$headingColor: $myFontColor;
 $headingLetterSpacing: -0.08em;
 $headingTextShadow: none;
-$backgroundColor: lighten(#285E88, 50%);
-$linkColor: #3b759e;
+$backgroundColor: lighten(#285E88, 1%);
+$linkColor: $myFontColor;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: #134674;
 

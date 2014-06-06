@@ -10,7 +10,7 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background-color: #c2daed; }
+  background-color: #29618c; }
 
 body .reveal footer {
   bottom: 0;
@@ -34,7 +34,7 @@ body .reveal section .emphasis{
   font-size: 36px;
   font-weight: normal;
   letter-spacing: -0.02em;
-  color: #333333; }
+  color: #f2f2f2; }
 
 ::selection {
   color: white;
@@ -51,7 +51,7 @@ body .reveal section .emphasis{
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #333333;
+  color: #f2f2f2;
   font-family: "Open Sans", sans-serif;
   line-height: 0.9em;
   letter-spacing: -0.08em;
@@ -65,7 +65,7 @@ body .reveal section .emphasis{
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: #3b759e;
+  color: #f2f2f2;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -74,20 +74,19 @@ body .reveal section .emphasis{
   transition: color .15s ease; }
 
 .reveal a:not(.image):hover {
-  color: #74a7cb;
+  color: white;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #264c66; }
+  background: #cccccc; }
 
 /*********************************************
  * IMAGES
  *********************************************/
 .reveal section img {
   margin: 15px 0px;
-  background: rgba(255, 255, 255, 0.12);
   -webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
   -ms-transition: all .2s linear;
@@ -96,7 +95,7 @@ body .reveal section .emphasis{
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #3b759e;
+  border-color: #f2f2f2;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -104,31 +103,31 @@ body .reveal section .emphasis{
  *********************************************/
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-  border-right-color: #3b759e; }
+  border-right-color: #f2f2f2; }
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-  border-left-color: #3b759e; }
+  border-left-color: #f2f2f2; }
 
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #3b759e; }
+  border-bottom-color: #f2f2f2; }
 
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-  border-top-color: #3b759e; }
+  border-top-color: #f2f2f2; }
 
 .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #74a7cb; }
+  border-right-color: white; }
 
 .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #74a7cb; }
+  border-left-color: white; }
 
 .reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #74a7cb; }
+  border-bottom-color: white; }
 
 .reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #74a7cb; }
+  border-top-color: white; }
 
 /*********************************************
  * PROGRESS BAR
@@ -137,7 +136,7 @@ body .reveal section .emphasis{
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #3b759e;
+  background: #f2f2f2;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
@@ -148,7 +147,7 @@ body .reveal section .emphasis{
  * SLIDE NUMBER
  *********************************************/
 .reveal .slide-number {
-  color: #3b759e; }
+  color: #f2f2f2; }
 
 #Design-Dev-Cycle {
   background-color: white; }
