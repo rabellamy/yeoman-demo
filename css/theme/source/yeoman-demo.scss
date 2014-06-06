@@ -19,7 +19,7 @@ $headingFont: 'Open Sans', sans-serif;
 $headingColor: $myFontColor;
 $headingLetterSpacing: -0.08em;
 $headingTextShadow: none;
-$backgroundColor: lighten(#285E88, 1%);
+$backgroundColor: darken(#285E88, 10%);
 $linkColor: $myFontColor;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: #134674;
@@ -32,6 +32,26 @@ $selectionBackgroundColor: #134674;
 // Background generator
 @mixin bodyBackground() {
 
+}
+
+.design-dev-cycle {
+  img {
+    background: darken(white, 5%);
+    border: 10px solid  darken(white, 5%);
+  }
+}
+
+.yeoman,
+.yo-grunt-bower {
+  img {
+    background: white;
+  }
+}
+
+.yeoman {
+  img {
+    border: 30px solid white;
+  }
 }
 
 .grunt {

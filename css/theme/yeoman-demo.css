@@ -3,6 +3,17 @@
 .reveal a:not(.image) {
   line-height: 1.3em; }
 
+.design-dev-cycle img {
+  background: #f2f2f2;
+  border: 10px solid #f2f2f2; }
+
+.yeoman img,
+.yo-grunt-bower img {
+  background: white; }
+
+.yeoman img {
+  border: 30px solid white; }
+
 .grunt img {
   width: 80%; }
 
@@ -10,24 +21,7 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background-color: #29618c; }
-
-body .reveal footer {
-  bottom: 0;
-  font-size: 14px;
-  left: 0;
-  position: fixed;
-  text-align: center;
-  width: 100%;
-  padding: 1em;
-}
-body .reveal .emphasis{
-  font-style: italic;
-}
-
-body .reveal section .emphasis{
-  font-size: 70%;
-}
+  background-color: #1c4361; }
 
 .reveal {
   font-family: "Open Sans", sans-serif;
